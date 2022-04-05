@@ -7,7 +7,7 @@ import { createData } from "./ar-data-create";
 import { ArweaveSigner } from "./signing";
 import SolanaSigner from "./signing/chains/SolanaSigner";
 import EthereumSigner from "./signing/chains/ethereumSigner";
-import InjectedEthereumSigner from "./signing/chains/InjectedEthereumSigner";
+import InjectedEthereumSigner from "./signing/chains/injectedEthereumSigner";
 
 export {
   MIN_BINARY_SIZE,
